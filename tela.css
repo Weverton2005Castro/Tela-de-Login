@@ -1,0 +1,66 @@
+
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+form th, form td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+form th {
+  background-color: #f0f0f0;
+}
+
+form input[type="number"], form select, form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#produtoTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#produtoTable th, #produtoTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#produtoTable th {
+  background-color: #f0f0f0;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
